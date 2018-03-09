@@ -2,4 +2,97 @@
 
 /* 回答はここに書いてね */
 
+.clearfix::before ,
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.main-box {
+  background-color: #ecf1f2;
+  width: 100%;
+  padding: 20px 10px;
+  margin: 0 auto;
+}
+
+.font {
+  position: absolute;
+  font-size: 16px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.box-wrap {
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+
+.box-wrap:first-child {
+  margin-top: 0px;
+}
+
+.box-inner12 {
+  position: relative;
+  background-color: #fff;
+  height: 50px;
+  width: auto;
+  margin: 0px 10px;
+}
+
+.box-inner06 {
+  position: relative;
+  height: 50px;
+  background-color: #fff;
+  width: calc(100% / 2 - 20px);
+  float: left;
+  margin: 0px 10px;
+}
+
+.box-inner04 {
+  position: relative;
+  background-color: #fff;
+  height: 50px;
+  float: left;
+  width: calc(100% / 3 - 20px);
+  margin: 0px 10px;
+}
+
+
+
+.box-inner03 {
+  position: relative;
+  background-color: #fff;
+  height: 50px;
+  float: left;
+  width: calc(100% / 4 - 20px);
+  margin: 0px 10px;
+}
+
+
+.box-inner024 {
+  position: relative;
+  background-color: #fff;
+  height: 50px;
+  float: left;
+  width: calc(100% / 5 - 20px);
+  margin: 0px 10px;
+}
+
+
+
+.box-inner02 {
+  position: relative;
+  background-color: #fff;
+  height: 50px;
+  float: left;
+  width: calc(100% / 6 - 20px);
+  margin: 0px 10px;
+}
+
+
+
 /* 回答はここに書いてね */
