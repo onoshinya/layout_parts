@@ -3,7 +3,7 @@
 /* 回答はここに書いてね */
 .one-box {
   width: 90px;
-  padding: 10px 0px;
+  padding: 10px 0;
   background-color: #e6f2ff;
   display: inline-block;
 }
@@ -15,7 +15,7 @@
 .two-box {
   width: 90px;
   margin: auto;
-  padding: 10px 0px;
+  padding: 10px 0;
   background-color: #e6f2ff;
 }
 

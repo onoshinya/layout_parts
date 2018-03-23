@@ -9,7 +9,7 @@
   background-color: #ecf1f2;
 }
 
-.app {
+.layout {
   height: 100px;
   width: 100px;
   align-items: center;
@@ -77,7 +77,7 @@
 .box__eight::after {
   height: 20px;
   width: 20px;
-  top:0px;
+  top: 0;
   left: 80px;
   position: absolute;
   background-color: #ffefd3;

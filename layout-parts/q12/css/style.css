@@ -16,26 +16,25 @@
 .coment__box::after {
   position: absolute;
   right: 0;
-  left: 60px;
+  left: 65px;
   width: 0;
   height: 0;
   content: "";
 }
 
 .coment__box::before {
-  left: 55px;
-  bottom: -54px;
+  left: 60px;
+  bottom: -53px;
   border-color: #222 transparent transparent transparent;
   border-style: solid;
-  border-width: 35px 25px 16px 25px;
+  border-width: 25px;
 }
 
 .coment__box::after {
-  bottom: -49px;
+  bottom: -40px;
   border-color: #fff transparent transparent transparent;
   border-style: solid;
-  border-width: 31px 20px 20px 20px;
+  border-width: 20px;
 }
-
 
 /* 回答はここに書いてね */
