@@ -6,23 +6,23 @@
   table-layout: fixed;
 }
 
-.menu:nth-child(odd) {
+.main__menu:nth-child(even) {
   background-color: #ecf1f2;
 }
 
-.menu:last-child {
+.main__menu:last-child {
   border-top: dashed #000 2px;
 }
 
-.text {
+.main__menu > th {
   padding: 10px;
   border: solid #dedede 1px;
   font-size: 16px;
   line-height: 22px;
 }
 
-.heading,
-.text:first-child {
+.main__head th,
+.main__menu > th:first-child {
   padding: 10px;
   border: solid #dedede 1px;
   background-color: #24a;

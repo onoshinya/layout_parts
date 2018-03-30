@@ -1,14 +1,14 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.main {
+.menu {
   display: table;
   width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
 }
 
-.menu__box {
+.menu > div {
   display: table-cell;
   padding: 20px;
   text-align: center;

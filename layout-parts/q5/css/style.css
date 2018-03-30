@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.one-box {
-  width: 90px;
+.horizontal__box__left {
   padding: 10px 0;
+  width: 90px;
   background-color: #e6f2ff;
   display: inline-block;
 }
@@ -12,46 +12,46 @@
   text-align: center;
 }
 
-.two-box {
-  width: 90px;
+.horizontal__box__right {
   margin: auto;
   padding: 10px 0;
+  width: 90px;
   background-color: #e6f2ff;
 }
 
-.main-center {
+.main__center {
   display: table;
 }
 
-.main-table {
+.main__table {
   text-align: center;
   vertical-align: middle;
   display: table-cell;
 }
 
-.main-cell {
+.main__cell {
   padding: 10px;
   background-color: #fff;
   display: inline-block;
 }
 
-.sub-center {
+.sub__center {
   align-items: center;
   justify-content: center;
   display: flex;
 }
 
-.sub-cell {
+.sub__cell {
   padding: 10px;
   background-color: #fff;
   display: inline-block;
 }
 
-.left-outer {
+.box__left {
   position: relative;
 }
 
-.left-inner {
+.box__left__txt {
   margin: auto;
   position: absolute;
   top: 0;
@@ -60,11 +60,11 @@
   left: 0;
 }
 
-.right-outer {
+.box__right {
   position: relative;
 }
 
-.right-inner {
+.box__right__txt {
   position: absolute;
   top: 50%;
   left: 50%;

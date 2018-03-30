@@ -7,45 +7,45 @@
 }
 
 .small {
-  border-radius: 3px;
-  font-size: 16px;
-  line-height: 26px;
   margin: 5px;
   padding: 0px 15px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  border-radius: 3px;
   display: inline-block;
 }
 
 .middle {
-  border-radius: 5px;
-  font-size: 20px;
-  line-height: 32px;
   margin: 5px;
   padding: 0px 20px;
+  font-size: 20px;
+  line-height: 32px;
+  color: #fff;
+  border-radius: 5px;
   display: inline-block;
 }
 
 .large {
-  border-radius: 7px;
-  font-size: 24px;
-  line-height: 38px;
   margin: 5px;
   padding: 0px 25px;
+  font-size: 24px;
+  line-height: 38px;
+  color: #fff;
+  border-radius: 7px;
   display: inline-block;
 }
 
 .common {
   background-color: #00bcd4;
-  color: #fff;
 }
 
 .error {
   background-color: #ff4081;
-  color: #fff;
 }
 
 .disabled {
   background-color: #e5e5e5;
-  color: #fff;
 }
 
 .shadow {
