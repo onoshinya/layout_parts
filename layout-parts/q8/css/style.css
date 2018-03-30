@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-.menu > div {
+.menu__box {
   display: table-cell;
   padding: 20px;
   text-align: center;

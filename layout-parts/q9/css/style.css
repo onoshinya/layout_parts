@@ -35,7 +35,7 @@
   margin-top: 0;
 }
 
-.box-wrap > div {
+.box-layout {
   margin: 0 10px;
   position: relative;
   height: 50px;
